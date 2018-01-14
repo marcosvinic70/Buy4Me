@@ -1,0 +1,44 @@
+.menu {
+	padding: 0px;
+	margin: 0px;
+}
+
+.menu .form-control {
+	width: 10px;
+}
+
+.menu h1 {
+	color: white;
+	text-shadow: 3px 1px purple;
+}
+
+.menu span{
+	color: purple;
+	text-shadow: 1px 1px white;
+}
+
+#menu {
+	font-family: 'Lobster', cursive;
+	margin: 0px;
+	padding: 0px;
+	border-bottom: 0.5px solid #E8E8E8;
+	padding-bottom: 15px;
+}
+.container-fluid .navbar-title {
+	background: #136a8a;
+	background: -webkit-linear-gradient(to right, #267871, #136a8a);
+	background: linear-gradient(to right, #267871, #136a8a);
+}
+
+nav a:hover {
+	color: purple;
+	border-bottom: 1px solid purple;
+	text-decoration: none;
+} 
+
+nav a {
+	color: #267871;
+	text-decoration: none;
+	margin: 15px;
+	padding: 0px 5px;
+}

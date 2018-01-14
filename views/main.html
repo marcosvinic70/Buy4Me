@@ -1,20 +1,43 @@
 <!DOCTYPE html>
-<html lang="pt-br" ng-app="appModule">
-	<head>
-		<meta charset="UTF-8">
+<html>
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+		<script type="text/javascript" src="../node_modules/include-tag/dist/includeTag.browser.js"></script>
+
 		<title>Buy4Me</title>
 
-		<link rel="stylesheet" href="../stylesheets/style.css">
+</head>
+<body>
 
-	</head>
+	<div class="container-fluid row" ng-controller="appController">
 
-	<body ng-controller="appController">
+		<include src="header.html"></include>
 
-		:)
+		<div class="col-md-4">
+			<img src="">
+			<p>Titulo</p>
+			<p>Descricao</p>
+			<p>Preco</p>
+		</div>
 
-	</body>
+		<div class="col-md-4">
+			<img src="">
+			<p>Titulo</p>
+			<p>Descricao</p>
+			<p>Preco</p>
+		</div>
 
-	<!--<script src="../javascripts/app.js"></script>
-	<script src="../javascripts/controllers/mainController.js"></script>
-	-->
+		<div class="col-md-4">
+			<img src="">
+			<p>Titulo</p>
+			<p>Descricao</p>
+			<p>Preco</p>
+		</div>
+
+	</div>
+
+</body>
 </html>
