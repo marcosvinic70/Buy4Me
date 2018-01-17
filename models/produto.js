@@ -2,7 +2,6 @@ module.exports = function(app) {
 
 	var db = require('../db/connect')();
 	var Schema = require('mongoose').Schema;
-	// var Usuario = app.models.usuario;
 
 	var produto = Schema({
 
@@ -13,7 +12,7 @@ module.exports = function(app) {
 		preco: { type: Number, required: true },
 		precoComDesconto: { type: Number, required: false },
 		precoComFrete: { type: Number, required: false },
-		// dono: { type: Usuario, required: false },
+		dono: { type: Schema.Types.ObjectId, required: false },
 		condicao: { type: Number, required: false },
 		marca: { type: String, required: false },
 		local: { type: String, required: true },
